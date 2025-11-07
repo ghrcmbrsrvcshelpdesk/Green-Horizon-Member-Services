@@ -1,0 +1,5 @@
+// Fix: Provide valid content for the assets module.
+// This file was previously invalid, causing import errors. It now exports the required ASSET_PATHS constant.
+export const ASSET_PATHS = {
+    logo: 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWxlYWYiPjxwYXRoIGQ9Ik0yMCAxMmMwLTMuODctMy4xMy03LTctN1M2IDguMTMgNiAxMnM0LjQ4IDcgNyA3Yy43MyAwIDEuNDQtLjEgMi4xMy0uMjkiLz48cGF0aCBkPSJNMjIgMTJsLTMtMy0zIDN2M2gybDMtM3oiLz48cGF0aCBkPSJNMMyIDEybC0zIDNoM3YtMyIgdHJhbnNmb3JtPSJyb3RhdGUoOTAgMTUgMTUpIi8+PC9zdmc+',
+};

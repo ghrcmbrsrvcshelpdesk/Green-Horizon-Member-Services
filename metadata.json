@@ -1,0 +1,5 @@
+{
+  "name": "Green Horizon Member Service Hub",
+  "description": "A dual-interface application for Green Horizon program participants to manage services and bills, and for administrators to oversee requests, data, and analytics.",
+  "requestFramePermissions": []
+}
